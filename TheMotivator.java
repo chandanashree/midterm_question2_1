@@ -13,5 +13,7 @@ public class TheMotivator{
 		TheMotivator tm = new TheMotivator();
 		tm.feedback(60);
 	}
-
+	public void printScore(int score){
+		System.out.println("Score : "+score);
+	}
 }
