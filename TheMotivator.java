@@ -1,3 +1,6 @@
+import java.util.Map;
+import java.util.HashMap;
+
 public class TheMotivator{
 	public void feedback(int score) {
 		if (score == 100)
@@ -16,5 +19,10 @@ public class TheMotivator{
 	}
 	public void printScore(int score){
 		System.out.println("Score : "+score);
+	}
+	public Map<String,Integer> mapStudentScore(int score){
+		Map<String, Integer> result = new HashMap<String, Integer>();
+		result.put("Test1", score);
+		return result;
 	}
 }
